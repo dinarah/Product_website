@@ -25989,12 +25989,12 @@ _reactDom2.default.render(_react2.default.createElement(
     _reactRouter.Route,
     { path: '/', component: _Main2.default },
     _react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: 'Home', component: _Home2.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: 'Product', component: _Product2.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: 'About', component: _About2.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: 'Demo', component: _Demo2.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: 'Contact', component: _Contact2.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: 'Featured', component: _Featured2.default })
+    _react2.default.createElement(_reactRouter.Route, { path: 'home', component: _Home2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: 'product', component: _Product2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: 'about', component: _About2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: 'demo', component: _Demo2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: 'contact', component: _Contact2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: 'featured', component: _Featured2.default })
   )
 ), document.getElementById('content'));
 
@@ -26320,7 +26320,7 @@ var Featured = _react2.default.createClass({
           ),
           _react2.default.createElement(
             'div',
-            { className: 'container' },
+            { className: 'container picture' },
             _react2.default.createElement(
               'div',
               { className: 'row' },
@@ -26698,7 +26698,7 @@ var Product = _react2.default.createClass({
             '  ',
             _react2.default.createElement(
               _reactRouter.Link,
-              { to: '/Demo' },
+              { to: '/demo' },
               _react2.default.createElement(
                 'button',
                 { className: 'btn btn-default' },

@@ -37,7 +37,7 @@ var Product = React.createClass({
             <div className="container picture">
               <img className="img-responsive" src={"images/product.png"}/>
             </div>
-            <div className="container">  <Link to="/Demo"><button className="btn btn-default">TRY DEMO</button></Link>
+            <div className="container">  <Link to="/demo"><button className="btn btn-default">TRY DEMO</button></Link>
             </div>
           </div>
         </div>

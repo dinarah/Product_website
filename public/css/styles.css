@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
 body {
-  background-image: url("images/background.jpg");
+  background-image: url("../images/background.jpg");
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow-x: auto;
   overflow-y: scroll;
@@ -10,8 +10,7 @@ body {
 
 .menu {
   margin-left: 360px;
-  float: none !important;
-  color: #FFFFFF !important; }
+  float: none !important; }
 
 .navbar-default {
   background: transparent;
@@ -207,7 +206,6 @@ h3 {
   background: rgba(232, 98, 86, 0.8); }
 
 img {
-  display: block;
   margin: 0 auto; }
 
 /*Responsive*/

@@ -23,7 +23,7 @@ var Featured = React.createClass({
                 </div>
               </div>
 
-              <div className="container">
+              <div className="container picture">
                 <div className="row">
                   <div className="col-md-4">
                     <img src={"images/logo4.png"}/>
