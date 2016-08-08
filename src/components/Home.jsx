@@ -12,8 +12,10 @@ var Home = React.createClass({
   render: function () {
     return (
       <div>
-        <div className = "container" id = "big">
-          <span> EMPOWERING GROWTH WITH REAL DATA</span>
+        <div>
+          <div className = "container" id = "big">
+            <span> EMPOWERING GROWTH WITH REAL DATA</span>
+          </div>
         </div>
         <Product/>
         <About/>

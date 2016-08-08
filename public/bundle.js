@@ -26456,7 +26456,7 @@ var Header = _react2.default.createClass({
                                 { className: 'li' },
                                 _react2.default.createElement(
                                     _reactRouter.Link,
-                                    { to: '/Product', activeStyle: { color: '#e7ff6e' } },
+                                    { to: '/product', activeStyle: { color: '#e7ff6e' } },
                                     'Product'
                                 )
                             ),
@@ -26465,7 +26465,7 @@ var Header = _react2.default.createClass({
                                 { className: 'li' },
                                 _react2.default.createElement(
                                     _reactRouter.Link,
-                                    { to: '/About', activeStyle: { color: '#e7ff6e' } },
+                                    { to: '/about', activeStyle: { color: '#e7ff6e' } },
                                     'About'
                                 )
                             ),
@@ -26474,7 +26474,7 @@ var Header = _react2.default.createClass({
                                 { className: 'li' },
                                 _react2.default.createElement(
                                     _reactRouter.Link,
-                                    { to: '/Featured', activeStyle: { color: '#e7ff6e' } },
+                                    { to: '/featured', activeStyle: { color: '#e7ff6e' } },
                                     'Featured'
                                 )
                             ),
@@ -26483,7 +26483,7 @@ var Header = _react2.default.createClass({
                                 { className: 'li' },
                                 _react2.default.createElement(
                                     _reactRouter.Link,
-                                    { to: '/Contact', activeStyle: { color: '#e7ff6e' } },
+                                    { to: '/contact', activeStyle: { color: '#e7ff6e' } },
                                     'Contact'
                                 )
                             ),
@@ -26492,7 +26492,7 @@ var Header = _react2.default.createClass({
                                 { className: 'li' },
                                 _react2.default.createElement(
                                     _reactRouter.Link,
-                                    { to: '/Demo', activeStyle: { color: '#e7ff6e' } },
+                                    { to: '/demo', activeStyle: { color: '#e7ff6e' } },
                                     'Demo'
                                 )
                             )
@@ -26547,11 +26547,15 @@ var Home = _react2.default.createClass({
       null,
       _react2.default.createElement(
         'div',
-        { className: 'container', id: 'big' },
+        null,
         _react2.default.createElement(
-          'span',
-          null,
-          ' EMPOWERING GROWTH WITH REAL DATA'
+          'div',
+          { className: 'container', id: 'big' },
+          _react2.default.createElement(
+            'span',
+            null,
+            ' EMPOWERING GROWTH WITH REAL DATA'
+          )
         )
       ),
       _react2.default.createElement(_Product2.default, null),

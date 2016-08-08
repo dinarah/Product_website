@@ -21,23 +21,23 @@ var Header = React.createClass({
                         <div className="navbar-collapse collapse">
                             <ul className="nav navbar-nav menu">
                                 <li className="li">
-                                    <Link to="/Product" activeStyle={{ color: '#e7ff6e' }}>Product</Link>
+                                    <Link to="/product" activeStyle={{ color: '#e7ff6e' }}>Product</Link>
                                 </li>
 
                                 <li className="li">
-                                    <Link to="/About" activeStyle={{ color: '#e7ff6e' }}>About</Link>
+                                    <Link to="/about" activeStyle={{ color: '#e7ff6e' }}>About</Link>
                                 </li>
 
                                 <li className="li">
-                                    <Link to="/Featured"  activeStyle={{ color: '#e7ff6e' }}>Featured</Link>
+                                    <Link to="/featured"  activeStyle={{ color: '#e7ff6e' }}>Featured</Link>
                                 </li>
 
                                 <li className="li">
-                                    <Link to="/Contact"  activeStyle={{ color: '#e7ff6e' }}>Contact</Link>
+                                    <Link to="/contact"  activeStyle={{ color: '#e7ff6e' }}>Contact</Link>
                                 </li>
 
                                 <li className="li">
-                                    <Link to="/Demo"  activeStyle={{ color: '#e7ff6e' }}>Demo</Link>
+                                    <Link to="/demo"  activeStyle={{ color: '#e7ff6e' }}>Demo</Link>
                                 </li>
                             </ul>
                         </div>
