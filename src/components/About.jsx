@@ -11,9 +11,9 @@ var About = React.createClass({
               <span> MEET BRAND
               </span>
             </div>
-            <div className = "container picture">
+            <div className = "container">
               <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4 picture">
                   <i className="material-icons">bubble_chart</i>
                   <h3>OUR STORY</h3>
                   <p className="parAbout">Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo,
@@ -21,7 +21,7 @@ var About = React.createClass({
                     ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna
                     mollis euismod.Donec sed odio.</p>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 picture">
                   <i className="material-icons">extension</i>
                   <h3>OUR VISION</h3>
                   <p className="parAbout">Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo,
@@ -29,7 +29,7 @@ var About = React.createClass({
                     ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna
                     mollis euismod.Donec sed odio.</p>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 picture">
                   <i className="material-icons">share</i>
                   <h3>OUR TECHNOLOGY</h3>
                   <p className="parAbout">Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo,

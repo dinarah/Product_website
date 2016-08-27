@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 body {
   background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow-x: auto;
   overflow-y: scroll;
@@ -8,10 +9,11 @@ body {
   width: 100%;
   background-attachment: fixed; }
 
-.menu {
-  margin-left: 360px;
-  float: none !important; }
+/*.menu {
+    margin-left: 360px;
+    float: none !important;  
 
+} */
 .navbar-default {
   background: transparent;
   border: 0;
@@ -32,7 +34,6 @@ body {
   float: right; }
 
 .li {
-  color: #e7ff6e !important;
   font-weight: bold;
   display: inline-block;
   margin-left: 10px;
@@ -213,59 +214,71 @@ img {
   .li {
     margin-left: 0px;
     margin-right: 0px; }
-  .footer {
-    width: 100%;
-    position: relative;
-    clear: both;
-    height: auto;
-    padding-top: 20px;
-    left: 0;
-    right: 0;
-    bottom: 0; }
   .brand {
     width: auto;
-    float: none; }
-  .navbar-inverse {
-    height: 100px; } }
+    float: none; } }
 
+/*
 @media (min-width: 0px) and (max-width: 768px) {
-  .li {
+    .li {
     margin-top: 0px;
     margin-left: 0px;
-    margin-right: 0px; }
-  .navbar-inverse {
-    height: 70px; }
-  #glyph {
+    margin-right: 0px;
+ }
+.navbar-inverse { 
+    height: 70px;    
+} 
+    
+ #glyph  {
     margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 15px; }
-  .navbar-collapse {
-    background-color: #303132; } }
+    margin-left: 0px; 
+    margin-bottom: 15px;
+ }
+    .navbar-collapse {
+    background-color: rgba(48,49,50,1); 
+}
+}
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  .navbar-inverse {
-    height: 100px; }
+@media (min-width: 768px) and (max-width: 1024px)  {
+ .navbar-inverse { 
+   
+    height: 100px;    
+ }   
   .li {
     margin-left: 0px;
-    margin-right: 0px; } }
+    margin-right: 0px;
+ }    
+}
 
 @media (min-width: 767px) {
-  .navbar-inverse {
-    height: 100px; }
-  .li {
-    margin-bottom: 15px; }
-  .navbar-collapse {
-    background-color: none; } }
+    .navbar-inverse { 
+    height: 100px;
+}
+    
+.li { 
+    margin-bottom: 15px;    
+ }   
+    .navbar-collapse {
+    background-color: none; 
+}
+}   
 
 @media (min-width: 1024px) {
-  .navbar-inverse {
-    height: 70px; } }
+    .navbar-inverse { 
+    height: 70px;
+}  
+   } 
 
 @media (min-width: 1400px) {
-  .navbar-inverse {
-    height: 70px; } }
+    .navbar-inverse { 
+    height: 70px;
+   }  
+} 
 
-@media (max-width: 1200px) and (min-width: 1024px) {
-  .li {
+@media (max-width: 1200px) and (min-width: 1024px)  {
+    
+    .li {  
     margin-left: 0px;
-    margin-right: 0px; } }
+    margin-right: 0px;
+ }    
+} */

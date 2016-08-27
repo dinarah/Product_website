@@ -19,7 +19,7 @@ var Header = React.createClass({
                             </button>
                         </div>
                         <div className="navbar-collapse collapse">
-                            <ul className="nav navbar-nav menu">
+                            <ul className="nav navbar-nav">
                                 <li className="li">
                                     <Link to="/product" activeStyle={{ color: '#e7ff6e' }}>Product</Link>
                                 </li>

@@ -21,7 +21,7 @@ var Demo = React.createClass({
             <span>REQUEST DEMO</span>
             <h3>Please fill in your contact details below </h3>
             <form>
-              <div className="container input-container">
+              <div className="container-fluid input-container">
                 <div className="row">
                   <div className="col-sm-6 col-sm-offset-3">
                     <div className="form-group has-success has-feedback">

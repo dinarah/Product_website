@@ -4,6 +4,7 @@
 
 body {
  background-image: url("../images/background.jpg");
+ background-repeat: no-repeat;
  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
  overflow-x: auto;
  overflow-y: scroll;
@@ -11,18 +12,17 @@ body {
  width: 100%;
  background-attachment: fixed;
   }
-   .menu {
+   /*.menu {
     margin-left: 360px;
-    float: none !important;
-    
+    float: none !important;  
 
-}
+} */
 
 .navbar-default {
     background: transparent;
     border: 0;
     margin-bottom: 0;
-    color: rgb(231, 255, 110)!important;
+    color: rgb(231, 255, 110)!important; //rgb(203,219,42)
 
 }
 
@@ -41,7 +41,6 @@ body {
     float: right;
 }
 .li {
-    color:rgb(231, 255, 110)!important;
     font-weight: bold;
     display: inline-block;
     margin-left: 10px;
@@ -250,30 +249,14 @@ img {
     margin-left: 0px;
     margin-right: 0px; 
  }
-   
-.footer {
-    width: 100%;
-    position: relative;
-    clear: both;
-    height: auto;
-    padding-top: 20px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
     
 .brand {
     width: auto;
     float: none;    
-}
-.navbar-inverse { 
-   
-    height: 100px;
-    
-}   
+} 
     }
 
-
+/*
 @media (min-width: 0px) and (max-width: 768px) {
     .li {
     margin-top: 0px;
@@ -336,4 +319,4 @@ img {
     margin-left: 0px;
     margin-right: 0px;
  }    
-}
+} */

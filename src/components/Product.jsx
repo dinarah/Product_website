@@ -34,10 +34,10 @@ var Product = React.createClass({
                   mollis euismod.Donec sed odio.</p>
               </div>
             </div>
-            <div className="container picture">
+            <div className="container-fluid picture">
               <img className="img-responsive" src={"images/product.png"}/>
             </div>
-            <div className="container">  <Link to="/demo"><button className="btn btn-default">TRY DEMO</button></Link>
+            <div className="container-fluid">  <Link to="/demo"><button className="btn btn-responsive">TRY DEMO</button></Link>
             </div>
           </div>
         </div>

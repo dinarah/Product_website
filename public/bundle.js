@@ -26037,13 +26037,13 @@ var About = _react2.default.createClass({
           ),
           _react2.default.createElement(
             'div',
-            { className: 'container picture' },
+            { className: 'container' },
             _react2.default.createElement(
               'div',
               { className: 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-md-4' },
+                { className: 'col-md-4 picture' },
                 _react2.default.createElement(
                   'i',
                   { className: 'material-icons' },
@@ -26062,7 +26062,7 @@ var About = _react2.default.createClass({
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col-md-4' },
+                { className: 'col-md-4 picture' },
                 _react2.default.createElement(
                   'i',
                   { className: 'material-icons' },
@@ -26081,7 +26081,7 @@ var About = _react2.default.createClass({
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col-md-4' },
+                { className: 'col-md-4 picture' },
                 _react2.default.createElement(
                   'i',
                   { className: 'material-icons' },
@@ -26219,7 +26219,7 @@ var Demo = _react2.default.createClass({
             null,
             _react2.default.createElement(
               'div',
-              { className: 'container input-container' },
+              { className: 'container-fluid input-container' },
               _react2.default.createElement(
                 'div',
                 { className: 'row' },
@@ -26303,18 +26303,18 @@ var Featured = _react2.default.createClass({
               { className: 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-md-4' },
-                _react2.default.createElement('img', { src: "images/logo1.png" })
+                { className: 'col-md-4 col-xs-4' },
+                _react2.default.createElement('img', { className: 'img-responsive', src: "images/logo1.png" })
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col-md-4' },
-                _react2.default.createElement('img', { src: "images/logo2.png" })
+                { className: 'col-md-4 col-xs-4' },
+                _react2.default.createElement('img', { className: 'img-responsive', src: "images/logo2.png" })
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col-md-4' },
-                _react2.default.createElement('img', { src: "images/logo3.png" })
+                { className: 'col-md-4 col-xs-4' },
+                _react2.default.createElement('img', { className: 'img-responsive', src: "images/logo3.png" })
               )
             )
           ),
@@ -26326,18 +26326,18 @@ var Featured = _react2.default.createClass({
               { className: 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-md-4' },
-                _react2.default.createElement('img', { src: "images/logo4.png" })
+                { className: 'col-md-4 col-xs-4' },
+                _react2.default.createElement('img', { className: 'img-responsive', src: "images/logo4.png" })
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col-md-4' },
-                _react2.default.createElement('img', { src: "images/logo5.png" })
+                { className: 'col-md-4 col-xs-4' },
+                _react2.default.createElement('img', { className: 'img-responsive', src: "images/logo5.png" })
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col-md-4' },
-                _react2.default.createElement('img', { src: "images/logo6.png" })
+                { className: 'col-md-4 col-xs-4' },
+                _react2.default.createElement('img', { className: 'img-responsive', src: "images/logo6.png" })
               )
             )
           )
@@ -26450,7 +26450,7 @@ var Header = _react2.default.createClass({
                         { className: 'navbar-collapse collapse' },
                         _react2.default.createElement(
                             'ul',
-                            { className: 'nav navbar-nav menu' },
+                            { className: 'nav navbar-nav' },
                             _react2.default.createElement(
                                 'li',
                                 { className: 'li' },
@@ -26693,19 +26693,19 @@ var Product = _react2.default.createClass({
           ),
           _react2.default.createElement(
             'div',
-            { className: 'container picture' },
+            { className: 'container-fluid picture' },
             _react2.default.createElement('img', { className: 'img-responsive', src: "images/product.png" })
           ),
           _react2.default.createElement(
             'div',
-            { className: 'container' },
+            { className: 'container-fluid' },
             '  ',
             _react2.default.createElement(
               _reactRouter.Link,
               { to: '/demo' },
               _react2.default.createElement(
                 'button',
-                { className: 'btn btn-default' },
+                { className: 'btn btn-responsive' },
                 'TRY DEMO'
               )
             )
