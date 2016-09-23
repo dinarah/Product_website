@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-var Demo = React.createClass({
+var Request_Demo = React.createClass({
  onButtonClick: function() {
     alert('The message has been sent');
         },
 
-         getInitialState: function() {
+    getInitialState: function() {
         return {
     
         }
@@ -51,4 +51,4 @@ var Demo = React.createClass({
     );
   }
 });
-module.exports = Demo;
+module.exports = Request_Demo;

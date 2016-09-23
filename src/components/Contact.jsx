@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Request_Demo from './Request_Demo.jsx';
 
 var Contact = React.createClass({
   render: function () {
     return (
       <div>
-        <section id="Contact">
           <div className = "container-about">
             <div className = "container" id = "about">
               <span> GET IN TOUCH
@@ -18,7 +18,7 @@ var Contact = React.createClass({
               <li>Fax.0198-632-874</li>
             </ul>
           </div>
-        </section>
+        <Request_Demo/> 
       </div>
     );
   }

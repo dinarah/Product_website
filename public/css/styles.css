@@ -1,40 +1,31 @@
 @import url(font-awesome.min.css);
+@import url(stylesheet.css);
 body {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'latoregular';
   overflow-x: auto;
   overflow-y: scroll;
   background-size: cover;
   width: 100%;
   background-attachment: fixed; }
 
-/*.menu {
-    margin-left: 360px;
-    float: none !important;  
-
-} */
 .navbar-default {
   background: transparent;
   border: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   color: #e7ff6e !important; }
 
 .brandName {
+  font-family: 'latobold';
   font-size: 40px;
   line-height: 1, 4cm;
   color: #e7ff6e !important;
   margin-top: 50px;
-  float: right;
   margin-right: 20px; }
 
-.brand {
-  width: 290px;
-  height: 150px;
-  float: right; }
-
 .li {
-  font-weight: bold;
+  font-family: 'latobold';
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
@@ -43,7 +34,8 @@ body {
 #big {
   color: #FFFFFF;
   font-size: 110px;
-  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
   text-align: center;
   margin: 70px; }
 
@@ -209,16 +201,25 @@ h3 {
 img {
   margin: 0 auto; }
 
-/*Responsive*/
-@media (max-width: 1024px) {
-  .li {
-    margin-left: 0px;
-    margin-right: 0px; }
-  .brand {
-    width: auto;
-    float: none; } }
+.navbar-default .navbar-toggle {
+  border-color: transparent; }
 
-/*
+/*Responsive
+
+@media (max-width: 1024px)  {
+
+ .li {
+    margin-left: 0px;
+    margin-right: 0px; 
+ }
+    
+.brand {
+    width: auto;
+    float: none;    
+} 
+    }
+
+
 @media (min-width: 0px) and (max-width: 768px) {
     .li {
     margin-top: 0px;

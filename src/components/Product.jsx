@@ -3,6 +3,17 @@ import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 
 var Product = React.createClass({
+  onTopScroll: function() {
+    window.scrollTo(0,0);
+    //alert('It works');
+    /*var elmnt = document.getElementById("myDIV");
+    elmnt.scrollTop = 0;*/
+  },
+  
+  getInitialState: function() {
+    return {}
+  },
+
   render: function () {
     return (
       <div>
@@ -37,7 +48,8 @@ var Product = React.createClass({
             <div className="container-fluid picture">
               <img className="img-responsive" src={"images/product.png"}/>
             </div>
-            <div className="container-fluid">  <Link to="/demo"><button className="btn btn-responsive">TRY DEMO</button></Link>
+            <div className="container-fluid"> 
+             <Link to="/request_demo"><button className="btn btn-responsive" onClick={this.onTopScroll}>TRY DEMO</button></Link>
             </div>
           </div>
         </div>
