@@ -26338,9 +26338,9 @@ var _Header = require('./components/Header.jsx');
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _Request_Demo = require('./components/Request_Demo.jsx');
+var _Demo = require('./components/Demo.jsx');
 
-var _Request_Demo2 = _interopRequireDefault(_Request_Demo);
+var _Demo2 = _interopRequireDefault(_Demo);
 
 var _Footer = require('./components/Footer.jsx');
 
@@ -26370,7 +26370,7 @@ _reactDom2.default.render(_react2.default.createElement(
     _react2.default.createElement(_reactRouter.Route, { path: 'home', component: _Home2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: 'product', component: _Product2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: 'about', component: _About2.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: 'request_demo', component: _Request_Demo2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: 'demo', component: _Demo2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: 'contact', component: _Contact2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: 'order', component: _Order2.default })
   )
@@ -26378,7 +26378,7 @@ _reactDom2.default.render(_react2.default.createElement(
 
 module.exports = _Home2.default;
 
-},{"./components/About.jsx":236,"./components/Contact.jsx":237,"./components/Footer.jsx":239,"./components/Header.jsx":240,"./components/Home.jsx":241,"./components/Main.jsx":242,"./components/Order.jsx":243,"./components/Product.jsx":244,"./components/Request_Demo.jsx":245,"react":232,"react-dom":51,"react-router":81}],236:[function(require,module,exports){
+},{"./components/About.jsx":236,"./components/Contact.jsx":237,"./components/Demo.jsx":238,"./components/Footer.jsx":240,"./components/Header.jsx":241,"./components/Home.jsx":242,"./components/Main.jsx":243,"./components/Order.jsx":244,"./components/Product.jsx":245,"react":232,"react-dom":51,"react-router":81}],236:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26403,7 +26403,7 @@ var About = _react2.default.createClass({
         { id: 'About' },
         _react2.default.createElement(
           'div',
-          { className: 'container-about' },
+          { className: 'container-fluid about' },
           _react2.default.createElement(
             'div',
             { className: 'container', id: 'about' },
@@ -26512,7 +26512,7 @@ var Contact = _react2.default.createClass({
       null,
       _react2.default.createElement(
         'div',
-        { className: 'container-about' },
+        { className: 'container-fluid about' },
         _react2.default.createElement(
           'div',
           { className: 'container', id: 'about' },
@@ -26533,12 +26533,48 @@ var Contact = _react2.default.createClass({
           _react2.default.createElement(
             'li',
             null,
-            'info-demo@brand.com'
+            'info-demo @brand.com'
           ),
           _react2.default.createElement(
             'li',
             null,
             'Fax.0198-632-874'
+          )
+        ),
+        _react2.default.createElement(
+          'ul',
+          { className: 'copyright' },
+          _react2.default.createElement(
+            'li',
+            null,
+            _react2.default.createElement(
+              'a',
+              { href: 'https://twitter.com', className: 'fa fa-twitter fa-2x' },
+              _react2.default.createElement('span', { className: 'label' })
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            _react2.default.createElement(
+              'a',
+              { href: 'https://www.linkedin.com', className: 'fa fa-linkedin fa-2x' },
+              _react2.default.createElement('span', { className: 'label' })
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            _react2.default.createElement(
+              'a',
+              { href: 'https://www.youtube.com', className: 'fa fa-youtube fa-2x' },
+              _react2.default.createElement('span', { className: 'label' })
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            _react2.default.createElement('a', { className: 'fa fa-envelope-o fa-2x', 'aria-hidden': 'true' })
           )
         )
       ),
@@ -26549,7 +26585,73 @@ var Contact = _react2.default.createClass({
 
 module.exports = Contact;
 
-},{"./Request_Demo.jsx":245,"react":232,"react-dom":51}],238:[function(require,module,exports){
+},{"./Request_Demo.jsx":246,"react":232,"react-dom":51}],238:[function(require,module,exports){
+'use strict';
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require('react-dom');
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _Request_Demo = require('./Request_Demo.jsx');
+
+var _Request_Demo2 = _interopRequireDefault(_Request_Demo);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Demo = _react2.default.createClass({
+  displayName: 'Demo',
+
+  render: function render() {
+    return _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(
+        'div',
+        { className: 'container-fluid about' },
+        _react2.default.createElement(
+          'div',
+          { className: 'container', id: 'about' },
+          _react2.default.createElement(
+            'span',
+            null,
+            'HOW IT WORKS'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'row' },
+            _react2.default.createElement(
+              'div',
+              { className: 'col-md-12' },
+              _react2.default.createElement(
+                'div',
+                { className: 'container-fluid picture' },
+                _react2.default.createElement('img', { className: 'img-responsive', src: "images/video_screenshot.jpg" })
+              ),
+              _react2.default.createElement(
+                'h3',
+                null,
+                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna'
+              )
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(_Request_Demo2.default, null)
+    );
+  }
+});
+
+module.exports = Demo;
+
+},{"./Request_Demo.jsx":246,"react":232,"react-dom":51}],239:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26571,7 +26673,7 @@ var Featured = _react2.default.createClass({
       null,
       _react2.default.createElement(
         'div',
-        { className: 'container-product' },
+        { className: 'container-fluid product' },
         _react2.default.createElement(
           'div',
           { className: 'container', id: 'featued' },
@@ -26634,7 +26736,7 @@ var Featured = _react2.default.createClass({
 
 module.exports = Featured;
 
-},{"react":232,"react-dom":51}],239:[function(require,module,exports){
+},{"react":232,"react-dom":51}],240:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26677,7 +26779,7 @@ var Footer = _react2.default.createClass({
 });
 module.exports = Footer;
 
-},{"react":232,"react-dom":51}],240:[function(require,module,exports){
+},{"react":232,"react-dom":51}],241:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26694,92 +26796,96 @@ var Header = _react2.default.createClass({
     render: function render() {
         return _react2.default.createElement(
             'div',
-            { className: 'container' },
+            null,
             _react2.default.createElement(
                 'div',
-                { className: 'navbar navbar-default', role: 'navigation' },
+                { className: 'container' },
                 _react2.default.createElement(
                     'div',
-                    { className: 'navbar-inner' },
+                    { className: 'navbar navbar-default', role: 'navigation' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'container' },
+                        { className: 'navbar-inner' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'navbar-header' },
+                            { className: 'container' },
                             _react2.default.createElement(
-                                _reactRouter.Link,
-                                { to: '/Home' },
+                                'div',
+                                { className: 'navbar-header' },
                                 _react2.default.createElement(
-                                    'div',
-                                    { className: 'navbar-brand brandName' },
-                                    'BRAND'
+                                    _reactRouter.Link,
+                                    { to: '/Home' },
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'navbar-brand brandName' },
+                                        'BRAND'
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    'button',
+                                    { type: 'button', className: 'navbar-toggle', 'data-toggle': 'collapse', 'data-target': '.navbar-collapse' },
+                                    _react2.default.createElement(
+                                        'span',
+                                        { className: 'sr-only' },
+                                        'Toggle navigation'
+                                    ),
+                                    _react2.default.createElement(
+                                        'span',
+                                        null,
+                                        _react2.default.createElement('i', { className: 'fa fa-sort-desc fa-2x', 'aria-hidden': 'true' })
+                                    )
                                 )
                             ),
                             _react2.default.createElement(
-                                'button',
-                                { type: 'button', className: 'navbar-toggle', 'data-toggle': 'collapse', 'data-target': '.navbar-collapse' },
+                                'div',
+                                { className: 'navbar-collapse collapse' },
                                 _react2.default.createElement(
-                                    'span',
-                                    { className: 'sr-only' },
-                                    'Toggle navigation'
-                                ),
-                                _react2.default.createElement(
-                                    'span',
-                                    null,
-                                    _react2.default.createElement('i', { className: 'fa fa-sort-desc fa-2x', 'aria-hidden': 'true' })
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'navbar-collapse collapse' },
-                            _react2.default.createElement(
-                                'ul',
-                                { className: 'nav navbar-nav' },
-                                _react2.default.createElement(
-                                    'li',
-                                    { className: 'li' },
+                                    'ul',
+                                    { className: 'nav pull-center navbar-nav menu', role: 'tablist' },
                                     _react2.default.createElement(
-                                        _reactRouter.Link,
-                                        { to: '/product', activeStyle: { color: '#e7ff6e' } },
-                                        'Product'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'li',
-                                    { className: 'li' },
+                                        'li',
+                                        { className: 'li' },
+                                        _react2.default.createElement(
+                                            _reactRouter.Link,
+                                            { to: '/product', activeStyle: { color: '#e7ff6e' } },
+                                            'Product'
+                                        )
+                                    ),
                                     _react2.default.createElement(
-                                        _reactRouter.Link,
-                                        { to: '/about', activeStyle: { color: '#e7ff6e' } },
-                                        'About'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'li',
-                                    { className: 'li' },
+                                        'li',
+                                        { className: 'li' },
+                                        _react2.default.createElement(
+                                            _reactRouter.Link,
+                                            { to: '/about', activeStyle: { color: '#e7ff6e' } },
+                                            'About'
+                                        )
+                                    ),
                                     _react2.default.createElement(
-                                        _reactRouter.Link,
-                                        { to: '/request_demo', activeStyle: { color: '#e7ff6e' } },
-                                        'Demo'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'li',
-                                    { className: 'li' },
+                                        'li',
+                                        { className: 'li' },
+                                        _react2.default.createElement(
+                                            _reactRouter.Link,
+                                            { to: '/demo', activeStyle: { color: '#e7ff6e' } },
+                                            'Demo'
+                                        )
+                                    ),
                                     _react2.default.createElement(
-                                        _reactRouter.Link,
-                                        { to: '/order', activeStyle: { color: '#e7ff6e' } },
-                                        'Order'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'li',
-                                    { className: 'li' },
+                                        'li',
+                                        { className: 'li' },
+                                        _react2.default.createElement(
+                                            _reactRouter.Link,
+                                            { to: '/order', activeStyle: { color: '#e7ff6e' } },
+                                            'Order'
+                                        )
+                                    ),
                                     _react2.default.createElement(
-                                        _reactRouter.Link,
-                                        { to: '/contact', activeStyle: { color: '#e7ff6e' } },
-                                        'Contact'
+                                        'li',
+                                        { className: 'li' },
+                                        _react2.default.createElement(
+                                            _reactRouter.Link,
+                                            { to: '/contact', activeStyle: { color: '#e7ff6e' } },
+                                            'Contact'
+                                        )
                                     )
                                 )
                             )
@@ -26793,7 +26899,7 @@ var Header = _react2.default.createClass({
 
 module.exports = Header;
 
-},{"react":232,"react-router":81}],241:[function(require,module,exports){
+},{"react":232,"react-router":81}],242:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26856,7 +26962,7 @@ var Home = _react2.default.createClass({
 
 module.exports = Home;
 
-},{"./About.jsx":236,"./Contact.jsx":237,"./Featured.jsx":238,"./Product.jsx":244,"react":232,"react-dom":51,"react-router":81}],242:[function(require,module,exports){
+},{"./About.jsx":236,"./Contact.jsx":237,"./Featured.jsx":239,"./Product.jsx":245,"react":232,"react-dom":51,"react-router":81}],243:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26899,7 +27005,7 @@ var Main = _react2.default.createClass({
 
 module.exports = Main;
 
-},{"./Footer.jsx":239,"./Header.jsx":240,"react":232,"react-dom":51,"react-router":81}],243:[function(require,module,exports){
+},{"./Footer.jsx":240,"./Header.jsx":241,"react":232,"react-dom":51,"react-router":81}],244:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26921,7 +27027,7 @@ var Order = _react2.default.createClass({
       null,
       _react2.default.createElement(
         'div',
-        { className: 'container-about' },
+        { className: 'container-fluid about' },
         _react2.default.createElement(
           'div',
           { className: 'container', id: 'about' },
@@ -26988,7 +27094,7 @@ var Order = _react2.default.createClass({
 
 module.exports = Order;
 
-},{"react":232,"react-dom":51}],244:[function(require,module,exports){
+},{"react":232,"react-dom":51}],245:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -27023,7 +27129,7 @@ var Product = _react2.default.createClass({
       null,
       _react2.default.createElement(
         'div',
-        { className: 'container-product' },
+        { className: 'container-fluid product' },
         _react2.default.createElement(
           'div',
           { className: 'container', id: 'product' },
@@ -27088,7 +27194,7 @@ var Product = _react2.default.createClass({
             { className: 'container-fluid' },
             _react2.default.createElement(
               _reactRouter.Link,
-              { to: '/request_demo' },
+              { to: '/demo' },
               _react2.default.createElement(
                 'button',
                 { className: 'btn btn-responsive', onClick: this.onTopScroll },
@@ -27104,7 +27210,7 @@ var Product = _react2.default.createClass({
 
 module.exports = Product;
 
-},{"react":232,"react-dom":51,"react-router":81}],245:[function(require,module,exports){
+},{"react":232,"react-dom":51,"react-router":81}],246:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -27134,7 +27240,7 @@ var Request_Demo = _react2.default.createClass({
       null,
       _react2.default.createElement(
         'div',
-        { className: 'container-product' },
+        { className: 'container-fluid product' },
         _react2.default.createElement(
           'div',
           { className: 'container', id: 'featued' },
@@ -27188,7 +27294,7 @@ var Request_Demo = _react2.default.createClass({
           ),
           _react2.default.createElement(
             'button',
-            { className: 'btn-default', id: 'btn-send', onClick: this.onButtonClick },
+            { className: 'btn-responsive', id: 'btn-send', onClick: this.onButtonClick },
             'SEND'
           )
         )

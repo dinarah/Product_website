@@ -19,7 +19,7 @@ body {
     background: transparent;
     border: 0;
     margin-bottom: 50px;
-    color: rgb(231, 255, 110)!important; //rgb(203,219,42)
+    color: rgb(231, 255, 110)!important; 
 
 }
 
@@ -40,13 +40,19 @@ body {
     margin-top: 50px;
 }
 
+.icons {
+	cursor: default;
+    list-style: none;
+	padding-left: 0;
+}
+
 #big {
    color: #FFFFFF;
    font-size: 110px;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: 600;   
    text-align:center;
-   margin: 70px;
+   margin-bottom: 70px;
 }
 
 #product {
@@ -57,7 +63,7 @@ body {
    text-align: center;  
 }
 
-.container-product {
+.product {
     background-color: rgb(255, 255, 255);
     margin-bottom: 150px;
     padding-bottom: 60px;
@@ -70,7 +76,7 @@ body {
     text-align: center;
 }
 
-.container-about {
+.about {
     background-color:rgb(231, 255, 110);
     margin-bottom: 150px;
     padding-bottom: 60px;
@@ -168,6 +174,8 @@ body {
 
 					&:hover {
 						color: _palette(fg);
+                        text-decoration: none;
+
 					}
 				}
             }

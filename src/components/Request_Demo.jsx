@@ -1,22 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
 var Request_Demo = React.createClass({
  onButtonClick: function() {
     alert('The message has been sent');
         },
 
-    getInitialState: function() {
+getInitialState: function() {
         return {
-    
         }
     },
 
-  render: function() {
+render: function() {
     return (
       <div>
-        <div className = "container-product">
+        <div className = "container-fluid product">
           <div className = "container" id = "featued">
             <span>REQUEST DEMO</span>
             <h3>Please fill in your contact details below </h3>
@@ -43,11 +41,10 @@ var Request_Demo = React.createClass({
                 </div>
               </div>
             </form>
-            <button className="btn-default" id="btn-send" onClick={this.onButtonClick}>SEND</button>
+            <button className="btn-responsive" id="btn-send" onClick={this.onButtonClick}>SEND</button>
           </div>
         </div>
       </div>
-
     );
   }
 });

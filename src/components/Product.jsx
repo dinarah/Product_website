@@ -17,7 +17,7 @@ var Product = React.createClass({
   render: function () {
     return (
       <div>
-        <div className = "container-product">
+        <div className = "container-fluid product">
           <div className = "container" id = "product">
             OUR TECHNOLOGY
           </div>
@@ -49,7 +49,7 @@ var Product = React.createClass({
               <img className="img-responsive" src={"images/product.png"}/>
             </div>
             <div className="container-fluid"> 
-             <Link to="/request_demo"><button className="btn btn-responsive" onClick={this.onTopScroll}>TRY DEMO</button></Link>
+             <Link to="/demo"><button className="btn btn-responsive" onClick={this.onTopScroll}>TRY DEMO</button></Link>
             </div>
           </div>
         </div>

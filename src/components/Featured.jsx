@@ -5,7 +5,7 @@ var Featured = React.createClass({
   render: function () {
     return (
       <div>
-          <div className = "container-product">
+          <div className = "container-fluid product">
             <div className = "container" id = "featued">
               <span> USING BRAND
               </span>
