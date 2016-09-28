@@ -31,13 +31,18 @@ body {
   margin-right: 10px;
   margin-top: 50px; }
 
+.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0; }
+
 #big {
   color: #FFFFFF;
   font-size: 110px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   text-align: center;
-  margin: 70px; }
+  margin-bottom: 70px; }
 
 #product {
   color: #605e5e;
@@ -46,7 +51,7 @@ body {
   padding-top: 50px;
   text-align: center; }
 
-.container-product {
+.product {
   background-color: white;
   margin-bottom: 150px;
   padding-bottom: 60px;
@@ -56,7 +61,7 @@ body {
   margin-top: 80px;
   text-align: center; }
 
-.container-about {
+.about {
   background-color: #e7ff6e;
   margin-bottom: 150px;
   padding-bottom: 60px;
@@ -142,7 +147,8 @@ body {
     .copyright li a {
       color: inherit; }
       .copyright li a:hover {
-        color: _palette(fg); }
+        color: _palette(fg);
+        text-decoration: none; }
 
 h3 {
   font-weight: 600;

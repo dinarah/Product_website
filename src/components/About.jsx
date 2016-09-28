@@ -6,7 +6,7 @@ var About = React.createClass({
     return (
       <div>
         <section id="About">
-          <div className = "container-about">
+          <div className = "container-fluid about">
             <div className = "container" id = "about">
               <span> MEET BRAND
               </span>

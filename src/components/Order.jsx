@@ -5,7 +5,7 @@ var Order = React.createClass({
   render: function () {
     return (
       <div>
-          <div className = "container-about">
+          <div className = "container-fluid about">
             <div className = "container" id = "about">
               <span> ORDER
               </span>
