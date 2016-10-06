@@ -18,7 +18,7 @@ var Product = React.createClass({
     return (
       <div>
         <div className = "container-fluid product">
-          <div className = "container" id = "product">
+          <div className = "CustomHeader">
             OUR TECHNOLOGY
           </div>
           <div className = "container">

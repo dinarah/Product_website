@@ -6,7 +6,7 @@ var Featured = React.createClass({
     return (
       <div>
           <div className = "container-fluid product">
-            <div className = "container" id = "featued">
+            <div className = "CustomHeader">
               <span> USING BRAND
               </span>
               <div className="container picture">

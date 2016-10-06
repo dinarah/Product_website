@@ -7,7 +7,7 @@ var About = React.createClass({
       <div>
         <section id="About">
           <div className = "container-fluid about">
-            <div className = "container" id = "about">
+            <div className = "CustomHeader">
               <span> MEET BRAND
               </span>
             </div>

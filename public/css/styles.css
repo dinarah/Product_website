@@ -3,7 +3,8 @@
 body {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
-  font-family: 'latoregular';
+  font-family: 'latobold';
+  font-size: 14px;
   overflow-x: auto;
   overflow-y: scroll;
   background-size: cover;
@@ -18,7 +19,7 @@ body {
 
 .brandName {
   font-family: 'latobold';
-  font-size: 40px;
+  font-size: 45px;
   line-height: 1, 4cm;
   color: #e7ff6e !important;
   margin-top: 50px;
@@ -26,10 +27,24 @@ body {
 
 .li {
   font-family: 'latobold';
+  font-size: 17px;
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 50px; }
+
+.order {
+  background-color: #FFFFFF;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  margin-right: 25px;
+  margin-left: 55px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 30px; }
 
 .icons {
   cursor: default;
@@ -44,7 +59,7 @@ body {
   text-align: center;
   margin-bottom: 70px; }
 
-#product {
+.CustomHeader {
   color: #605e5e;
   font-size: 110px;
   font-weight: bold;
@@ -53,7 +68,7 @@ body {
 
 .product {
   background-color: white;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   padding-bottom: 60px;
   text-align: center; }
 
@@ -63,16 +78,13 @@ body {
 
 .about {
   background-color: #e7ff6e;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   padding-bottom: 60px;
   color: #605e5e; }
 
-#about {
-  color: #605e5e;
-  font-size: 110px;
-  font-weight: bold;
-  padding-top: 50px;
-  text-align: center; }
+.Customh3 {
+  margin-bottom: 50px;
+  color: #605e5e; }
 
 .btn {
   background-color: transparent;
@@ -117,13 +129,6 @@ body {
   /* Support for IE. */
   font-feature-settings: 'liga'; }
 
-#featued {
-  color: #605e5e;
-  font-size: 110px;
-  font-weight: bold;
-  padding-top: 50px;
-  text-align: center; }
-
 .copyright {
   font-size: 15px;
   letter-spacing: _size(letter-spacing-alt);
@@ -152,9 +157,21 @@ body {
 
 h3 {
   font-weight: 600;
-  margin-top: 50px; }
+  margin-top: 50px;
+  text-align: center; }
 
 .input {
+  background-color: #e7ff6e;
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  box-sizing: border-box;
+  border: 0 !important;
+  border-radius: 0 !important;
+  text-align: start;
+  box-shadow: none !important; }
+
+.InputBuy {
   background-color: #e7ff6e;
   margin-top: 12px;
   font-size: 12px;
@@ -185,6 +202,7 @@ h3 {
   text-align: center; }
 
 .parAbout {
+  color: #605e5e;
   padding-left: 20px;
   padding-right: 20px; }
 
@@ -209,6 +227,22 @@ img {
 
 .navbar-default .navbar-toggle {
   border-color: transparent; }
+
+.panel .panel-heading {
+  border-radius: 0 !important;
+  border: solid #605e5e 2px;
+  background-color: #e7ff6e; }
+
+.panel-default {
+  border-color: transparent !important; }
+
+.panel-title {
+  text-align: center;
+  font-size: 18px !important;
+  color: #605e5e;
+  text-decoration: none; }
+  .panel-title a {
+    text-decoration: none; }
 
 /*Responsive
 

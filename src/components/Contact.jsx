@@ -7,7 +7,7 @@ var Contact = React.createClass({
     return (
       <div>
         <div className = "container-fluid about">
-          <div className = "container" id = "about">
+          <div className = "CustomHeader">
             <span> GET IN TOUCH
             </span>
           </div>

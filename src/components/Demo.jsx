@@ -8,7 +8,7 @@ var Demo = React.createClass({
     return (
       <div>
           <div className = "container-fluid about">
-            <div className = "container" id = "about">
+            <div className = "CustomHeader">
               <span>HOW IT WORKS
               </span>
             </div>

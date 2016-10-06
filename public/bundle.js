@@ -26358,6 +26358,10 @@ var _About = require('./components/About.jsx');
 
 var _About2 = _interopRequireDefault(_About);
 
+var _Buy = require('./components/Buy.jsx');
+
+var _Buy2 = _interopRequireDefault(_Buy);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom2.default.render(_react2.default.createElement(
@@ -26372,13 +26376,14 @@ _reactDom2.default.render(_react2.default.createElement(
     _react2.default.createElement(_reactRouter.Route, { path: 'about', component: _About2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: 'demo', component: _Demo2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: 'contact', component: _Contact2.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: 'order', component: _Order2.default })
+    _react2.default.createElement(_reactRouter.Route, { path: 'order', component: _Order2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: 'buy', component: _Buy2.default })
   )
 ), document.getElementById('content'));
 
 module.exports = _Home2.default;
 
-},{"./components/About.jsx":236,"./components/Contact.jsx":237,"./components/Demo.jsx":238,"./components/Footer.jsx":240,"./components/Header.jsx":241,"./components/Home.jsx":242,"./components/Main.jsx":243,"./components/Order.jsx":244,"./components/Product.jsx":245,"react":232,"react-dom":51,"react-router":81}],236:[function(require,module,exports){
+},{"./components/About.jsx":236,"./components/Buy.jsx":237,"./components/Contact.jsx":238,"./components/Demo.jsx":239,"./components/Footer.jsx":241,"./components/Header.jsx":242,"./components/Home.jsx":243,"./components/Main.jsx":244,"./components/Order.jsx":245,"./components/Product.jsx":246,"react":232,"react-dom":51,"react-router":81}],236:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26406,7 +26411,7 @@ var About = _react2.default.createClass({
           { className: 'container-fluid about' },
           _react2.default.createElement(
             'div',
-            { className: 'container', id: 'about' },
+            { className: 'CustomHeader' },
             _react2.default.createElement(
               'span',
               null,
@@ -26497,6 +26502,167 @@ var _reactDom = require('react-dom');
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+var _reactRouter = require('react-router');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Buy = _react2.default.createClass({
+    displayName: 'Buy',
+
+    render: function render() {
+        return _react2.default.createElement(
+            'div',
+            null,
+            _react2.default.createElement(
+                'div',
+                { className: 'container-fluid product' },
+                _react2.default.createElement(
+                    'h3',
+                    { className: 'Customh3' },
+                    'You are 3 steps away from having BRAND at your own'
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'panel-group', id: 'accordion', role: 'tablist', 'aria-multiselectable': 'true' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'panel panel-default' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'panel-heading', role: 'tab', id: 'headingOne' },
+                            _react2.default.createElement(
+                                'h4',
+                                { className: 'panel-title' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { role: 'button', className: 'CollapseButton', 'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapseOne', 'aria-expanded': 'true', 'aria-controls': 'collapseOne' },
+                                    '1. Your Personal Details'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { id: 'collapseOne', className: 'panel-collapse collapse', role: 'tabpanel', 'aria-labelledby': 'headingOne' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'panel-body' },
+                                _react2.default.createElement(
+                                    'form',
+                                    null,
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'container-fluid input-container' },
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'row' },
+                                            _react2.default.createElement(
+                                                'div',
+                                                { className: 'col-sm-6 col-sm-offset-3' },
+                                                _react2.default.createElement(
+                                                    'div',
+                                                    { className: 'form-group has-success has-feedback' },
+                                                    _react2.default.createElement('input', { type: 'name', className: 'form-control InputBuy', placeholder: 'Company / Name', 'aria-describedby': 'inputSuccess2Status' }),
+                                                    _react2.default.createElement('span', { id: 'inputError2Status', className: 'sr-only' })
+                                                ),
+                                                _react2.default.createElement(
+                                                    'div',
+                                                    { className: 'form-group' },
+                                                    _react2.default.createElement('input', { type: 'country', className: 'form-control InputBuy', placeholder: 'Country' })
+                                                ),
+                                                _react2.default.createElement(
+                                                    'div',
+                                                    { className: 'form-group' },
+                                                    _react2.default.createElement('input', { type: 'email', className: 'form-control InputBuy', placeholder: 'Email' })
+                                                ),
+                                                _react2.default.createElement(
+                                                    'div',
+                                                    { className: 'form-group' },
+                                                    _react2.default.createElement('input', { type: 'phone', className: 'form-control InputBuy', placeholder: 'Landline Phone' })
+                                                ),
+                                                _react2.default.createElement(
+                                                    'div',
+                                                    { className: 'form-group' },
+                                                    _react2.default.createElement('input', { type: 'phone', className: 'form-control InputBuy', placeholder: 'Mobile Phone' })
+                                                )
+                                            )
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'panel panel-default' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'panel-heading', role: 'tab', id: 'headingTwo' },
+                            _react2.default.createElement(
+                                'h4',
+                                { className: 'panel-title' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { className: 'collapsed', role: 'button', 'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapseTwo', 'aria-expanded': 'true', 'aria-controls': 'collapseTwo' },
+                                    '2. Payment Means'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { id: 'collapseTwo', className: 'panel-collapse collapse', role: 'tabpanel', 'aria-labelledby': 'headingTwo' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'panel-body' },
+                                'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.3 wolf moon officia aute, non cupidatat skateboard dolor brunch.Food truck quinoa nesciunt laborum eiusmod.Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.Ad vegan excepteur butcher vice lomo.Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven\'t heard of them accusamus labore sustainable VHS.',
+                                _react2.default.createElement('img', { src: 'https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png', alt: 'Buy now with PayPal' })
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'panel panel-default' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'panel-heading', role: 'tab', id: 'headingThree' },
+                            _react2.default.createElement(
+                                'h4',
+                                { className: 'panel-title' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { className: 'collapsed', role: 'button', 'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapseThree', 'aria-expanded': 'true', 'aria-controls': 'collapseThree' },
+                                    '3. Your BRAND'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { id: 'collapseThree', className: 'panel-collapse collapse', role: 'tabpanel', 'aria-labelledby': 'headingThree' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'panel-body' },
+                                'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.3 wolf moon officia aute, non cupidatat skateboard dolor brunch.Food truck quinoa nesciunt laborum eiusmod.Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.Ad vegan excepteur butcher vice lomo.Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven\'t heard of them accusamus labore sustainable VHS.'
+                            )
+                        )
+                    )
+                )
+            )
+        );
+    }
+});
+
+module.exports = Buy;
+
+},{"react":232,"react-dom":51,"react-router":81}],238:[function(require,module,exports){
+'use strict';
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require('react-dom');
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
 var _Request_Demo = require('./Request_Demo.jsx');
 
 var _Request_Demo2 = _interopRequireDefault(_Request_Demo);
@@ -26515,7 +26681,7 @@ var Contact = _react2.default.createClass({
         { className: 'container-fluid about' },
         _react2.default.createElement(
           'div',
-          { className: 'container', id: 'about' },
+          { className: 'CustomHeader' },
           _react2.default.createElement(
             'span',
             null,
@@ -26585,7 +26751,7 @@ var Contact = _react2.default.createClass({
 
 module.exports = Contact;
 
-},{"./Request_Demo.jsx":246,"react":232,"react-dom":51}],238:[function(require,module,exports){
+},{"./Request_Demo.jsx":247,"react":232,"react-dom":51}],239:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26614,7 +26780,7 @@ var Demo = _react2.default.createClass({
         { className: 'container-fluid about' },
         _react2.default.createElement(
           'div',
-          { className: 'container', id: 'about' },
+          { className: 'CustomHeader' },
           _react2.default.createElement(
             'span',
             null,
@@ -26651,7 +26817,7 @@ var Demo = _react2.default.createClass({
 
 module.exports = Demo;
 
-},{"./Request_Demo.jsx":246,"react":232,"react-dom":51}],239:[function(require,module,exports){
+},{"./Request_Demo.jsx":247,"react":232,"react-dom":51}],240:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26676,7 +26842,7 @@ var Featured = _react2.default.createClass({
         { className: 'container-fluid product' },
         _react2.default.createElement(
           'div',
-          { className: 'container', id: 'featued' },
+          { className: 'CustomHeader' },
           _react2.default.createElement(
             'span',
             null,
@@ -26736,7 +26902,7 @@ var Featured = _react2.default.createClass({
 
 module.exports = Featured;
 
-},{"react":232,"react-dom":51}],240:[function(require,module,exports){
+},{"react":232,"react-dom":51}],241:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26779,7 +26945,7 @@ var Footer = _react2.default.createClass({
 });
 module.exports = Footer;
 
-},{"react":232,"react-dom":51}],241:[function(require,module,exports){
+},{"react":232,"react-dom":51}],242:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26899,7 +27065,7 @@ var Header = _react2.default.createClass({
 
 module.exports = Header;
 
-},{"react":232,"react-router":81}],242:[function(require,module,exports){
+},{"react":232,"react-router":81}],243:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26962,7 +27128,7 @@ var Home = _react2.default.createClass({
 
 module.exports = Home;
 
-},{"./About.jsx":236,"./Contact.jsx":237,"./Featured.jsx":239,"./Product.jsx":245,"react":232,"react-dom":51,"react-router":81}],243:[function(require,module,exports){
+},{"./About.jsx":236,"./Contact.jsx":238,"./Featured.jsx":240,"./Product.jsx":246,"react":232,"react-dom":51,"react-router":81}],244:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -27005,7 +27171,7 @@ var Main = _react2.default.createClass({
 
 module.exports = Main;
 
-},{"./Footer.jsx":240,"./Header.jsx":241,"react":232,"react-dom":51,"react-router":81}],244:[function(require,module,exports){
+},{"./Footer.jsx":241,"./Header.jsx":242,"react":232,"react-dom":51,"react-router":81}],245:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -27016,10 +27182,20 @@ var _reactDom = require('react-dom');
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+var _reactRouter = require('react-router');
+
+var _Buy = require('./Buy.jsx');
+
+var _Buy2 = _interopRequireDefault(_Buy);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Order = _react2.default.createClass({
   displayName: 'Order',
+
+  onTopScroll: function onTopScroll() {
+    window.scrollTo(0, 0);
+  },
 
   render: function render() {
     return _react2.default.createElement(
@@ -27030,7 +27206,7 @@ var Order = _react2.default.createClass({
         { className: 'container-fluid about' },
         _react2.default.createElement(
           'div',
-          { className: 'container', id: 'about' },
+          { className: 'CustomHeader' },
           _react2.default.createElement(
             'span',
             null,
@@ -27039,50 +27215,104 @@ var Order = _react2.default.createClass({
         ),
         _react2.default.createElement(
           'div',
-          { className: 'container' },
+          { className: 'container text-center' },
           _react2.default.createElement(
             'div',
             { className: 'row' },
             _react2.default.createElement(
               'div',
-              { className: 'col-md-4 picture' },
+              { className: 'col-md-3 order' },
               _react2.default.createElement(
                 'h3',
                 null,
-                'OUR STORY'
+                'BASIC'
               ),
               _react2.default.createElement(
-                'p',
-                { className: 'parAbout' },
-                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio.'
+                'div',
+                null,
+                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh '
+              ),
+              _react2.default.createElement(
+                'h3',
+                null,
+                '19, 99 €'
+              ),
+              _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                  _reactRouter.Link,
+                  { to: '/buy' },
+                  _react2.default.createElement(
+                    'button',
+                    { className: 'btn btn-responsive', onClick: this.onTopScroll },
+                    'ORDER'
+                  )
+                )
               )
             ),
             _react2.default.createElement(
               'div',
-              { className: 'col-md-4 picture' },
+              { className: 'col-md-3 order' },
               _react2.default.createElement(
                 'h3',
                 null,
-                'OUR VISION'
+                'OPTIMAL'
               ),
               _react2.default.createElement(
-                'p',
-                { className: 'parAbout' },
-                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio.'
+                'div',
+                null,
+                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh '
+              ),
+              _react2.default.createElement(
+                'h3',
+                null,
+                '29, 99 €'
+              ),
+              _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                  _reactRouter.Link,
+                  { to: '/buy' },
+                  _react2.default.createElement(
+                    'button',
+                    { className: 'btn btn-responsive', onClick: this.onTopScroll },
+                    'ORDER'
+                  )
+                )
               )
             ),
             _react2.default.createElement(
               'div',
-              { className: 'col-md-4 picture' },
+              { className: 'col-md-3 order' },
               _react2.default.createElement(
                 'h3',
                 null,
-                'OUR TECHNOLOGY'
+                'PREMIUM'
               ),
               _react2.default.createElement(
-                'p',
-                { className: 'parAbout' },
-                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio.'
+                'div',
+                null,
+                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh '
+              ),
+              _react2.default.createElement(
+                'h3',
+                null,
+                '39, 99 €'
+              ),
+              _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                  _reactRouter.Link,
+                  { to: '/buy' },
+                  _react2.default.createElement(
+                    'button',
+                    { className: 'btn btn-responsive', onClick: this.onTopScroll },
+                    'ORDER'
+                  )
+                )
               )
             )
           )
@@ -27094,7 +27324,7 @@ var Order = _react2.default.createClass({
 
 module.exports = Order;
 
-},{"react":232,"react-dom":51}],245:[function(require,module,exports){
+},{"./Buy.jsx":237,"react":232,"react-dom":51,"react-router":81}],246:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -27132,7 +27362,7 @@ var Product = _react2.default.createClass({
         { className: 'container-fluid product' },
         _react2.default.createElement(
           'div',
-          { className: 'container', id: 'product' },
+          { className: 'CustomHeader' },
           'OUR TECHNOLOGY'
         ),
         _react2.default.createElement(
@@ -27210,7 +27440,7 @@ var Product = _react2.default.createClass({
 
 module.exports = Product;
 
-},{"react":232,"react-dom":51,"react-router":81}],246:[function(require,module,exports){
+},{"react":232,"react-dom":51,"react-router":81}],247:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -27243,7 +27473,7 @@ var Request_Demo = _react2.default.createClass({
         { className: 'container-fluid product' },
         _react2.default.createElement(
           'div',
-          { className: 'container', id: 'featued' },
+          { className: 'CustomHeader' },
           _react2.default.createElement(
             'span',
             null,

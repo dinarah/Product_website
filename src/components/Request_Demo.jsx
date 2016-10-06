@@ -15,7 +15,7 @@ render: function() {
     return (
       <div>
         <div className = "container-fluid product">
-          <div className = "container" id = "featued">
+          <div className = "CustomHeader">
             <span>REQUEST DEMO</span>
             <h3>Please fill in your contact details below </h3>
             <form>

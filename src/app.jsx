@@ -11,6 +11,7 @@ import Footer from './components/Footer.jsx';
 import Order from './components/Order.jsx';
 import Contact from './components/Contact.jsx';
 import About from './components/About.jsx';
+import Buy from './components/Buy.jsx';
 
 ReactDOM.render(
   <Router history={hashHistory}>
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Route path="demo" component={Demo}></Route>
       <Route path="contact" component={Contact}></Route>
       <Route path="order" component={Order}></Route>
+       <Route path="buy" component={Buy}></Route>
     </Route>
   </Router>
   , document.getElementById('content'));
