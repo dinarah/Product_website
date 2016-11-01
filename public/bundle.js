@@ -26583,6 +26583,11 @@ var Buy = _react2.default.createClass({
                                                     'div',
                                                     { className: 'form-group' },
                                                     _react2.default.createElement('input', { type: 'phone', className: 'form-control InputBuy', placeholder: 'Mobile Phone' })
+                                                ),
+                                                _react2.default.createElement(
+                                                    'button',
+                                                    { className: 'btn', onClick: this.onButtonClick },
+                                                    'SUBMIT'
                                                 )
                                             )
                                         )
@@ -26614,7 +26619,16 @@ var Buy = _react2.default.createClass({
                                 'div',
                                 { className: 'panel-body' },
                                 'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.3 wolf moon officia aute, non cupidatat skateboard dolor brunch.Food truck quinoa nesciunt laborum eiusmod.Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.Ad vegan excepteur butcher vice lomo.Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven\'t heard of them accusamus labore sustainable VHS.',
-                                _react2.default.createElement('img', { src: 'https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png', alt: 'Buy now with PayPal' })
+                                _react2.default.createElement('img', { src: 'https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png', alt: 'Buy now with PayPal' }),
+                                _react2.default.createElement('script', { async: 'async', src: 'vendor/js/paypal-button.min.js?merchant=hubievabouassaba-facilitator@gmail.com',
+                                    'data-button': 'buynow',
+                                    'data-name': 'BRAND',
+                                    'data-amount': '100',
+                                    'data-currency': 'EUR',
+                                    'data-hosted_button_id': 'BuyButton',
+                                    'data-callback': 'https://dinarah.github.io/Product_website/public/#/buy',
+                                    'data-env': 'sandbox'
+                                })
                             )
                         )
                     ),
@@ -27245,7 +27259,7 @@ var Order = _react2.default.createClass({
                   { to: '/buy' },
                   _react2.default.createElement(
                     'button',
-                    { className: 'btn btn-responsive', onClick: this.onTopScroll },
+                    { className: 'btn btn-default', onClick: this.onTopScroll },
                     'ORDER'
                   )
                 )
@@ -27277,7 +27291,7 @@ var Order = _react2.default.createClass({
                   { to: '/buy' },
                   _react2.default.createElement(
                     'button',
-                    { className: 'btn btn-responsive', onClick: this.onTopScroll },
+                    { className: 'btn btn-default', onClick: this.onTopScroll },
                     'ORDER'
                   )
                 )
@@ -27309,7 +27323,7 @@ var Order = _react2.default.createClass({
                   { to: '/buy' },
                   _react2.default.createElement(
                     'button',
-                    { className: 'btn btn-responsive', onClick: this.onTopScroll },
+                    { className: 'btn btn-default', onClick: this.onTopScroll },
                     'ORDER'
                   )
                 )
@@ -27427,7 +27441,7 @@ var Product = _react2.default.createClass({
               { to: '/demo' },
               _react2.default.createElement(
                 'button',
-                { className: 'btn btn-responsive', onClick: this.onTopScroll },
+                { className: 'btn', onClick: this.onTopScroll },
                 'TRY DEMO'
               )
             )
@@ -27524,7 +27538,7 @@ var Request_Demo = _react2.default.createClass({
           ),
           _react2.default.createElement(
             'button',
-            { className: 'btn-responsive', id: 'btn-send', onClick: this.onButtonClick },
+            { className: 'btn', onClick: this.onButtonClick },
             'SEND'
           )
         )

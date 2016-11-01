@@ -49,7 +49,7 @@ var Product = React.createClass({
               <img className="img-responsive" src={"images/product.png"}/>
             </div>
             <div className="container-fluid"> 
-             <Link to="/demo"><button className="btn btn-responsive" onClick={this.onTopScroll}>TRY DEMO</button></Link>
+             <Link to="/demo"><button className="btn" onClick={this.onTopScroll}>TRY DEMO</button></Link>
             </div>
           </div>
         </div>
