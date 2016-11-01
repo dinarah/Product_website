@@ -24,7 +24,7 @@ var Order = React.createClass({
                   tortor mauris condimentum nibh </div>
                 <h3>19, 99 €</h3>
                 <div>
-                  <Link to="/buy"><button className="btn btn-responsive" onClick={this.onTopScroll}>ORDER</button></Link>
+                  <Link to="/buy"><button className="btn btn-default" onClick={this.onTopScroll}>ORDER</button></Link>
                 </div>
               </div>
               <div className="col-md-3 order">
@@ -33,7 +33,7 @@ var Order = React.createClass({
                   tortor mauris condimentum nibh </div>
                 <h3>29, 99 €</h3>
                 <div>
-                  <Link to="/buy"><button className="btn btn-responsive" onClick={this.onTopScroll}>ORDER</button></Link>
+                  <Link to="/buy"><button className="btn btn-default" onClick={this.onTopScroll}>ORDER</button></Link>
                 </div>
               </div>
               <div className="col-md-3 order">
@@ -42,7 +42,7 @@ var Order = React.createClass({
                   tortor mauris condimentum nibh </div>
                 <h3>39, 99 €</h3>
                 <div>
-                  <Link to="/buy"><button className="btn btn-responsive" onClick={this.onTopScroll}>ORDER</button></Link>
+                  <Link to="/buy"><button className="btn btn-default" onClick={this.onTopScroll}>ORDER</button></Link>
                 </div>
               </div>
             </div>

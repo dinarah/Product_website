@@ -41,7 +41,7 @@ render: function() {
                 </div>
               </div>
             </form>
-            <button className="btn-responsive" id="btn-send" onClick={this.onButtonClick}>SEND</button>
+            <button className="btn" onClick={this.onButtonClick}>SEND</button>
           </div>
         </div>
       </div>
