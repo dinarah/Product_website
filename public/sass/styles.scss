@@ -5,8 +5,7 @@
 
 
 body {
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
+    background-color: url("../images/background.jpg");
     font-family:  'latobold';
     font-size: 14px;
     overflow-x: auto;
@@ -36,7 +35,6 @@ body {
 .li {
     font-family: 'latobold';
     font-size: 17px;
-    display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 50px;
@@ -241,6 +239,7 @@ h3 {
 
 .parAbout{
     color:rgb(96, 94, 94);
+    font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
 }
