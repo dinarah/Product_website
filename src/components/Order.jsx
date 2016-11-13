@@ -20,7 +20,7 @@ var Order = React.createClass({
             <div className="row">
               <div className="col-md-3 order">
                 <h3>BASIC</h3>
-                <div>Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo,
+                <div>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
                   tortor mauris condimentum nibh </div>
                 <h3>19, 99 €</h3>
                 <div>

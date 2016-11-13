@@ -26440,7 +26440,7 @@ var About = _react2.default.createClass({
                 _react2.default.createElement(
                   'p',
                   { className: 'parAbout' },
-                  'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio.'
+                  'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
                 )
               ),
               _react2.default.createElement(
@@ -26459,7 +26459,7 @@ var About = _react2.default.createClass({
                 _react2.default.createElement(
                   'p',
                   { className: 'parAbout' },
-                  'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio.'
+                  'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
                 )
               ),
               _react2.default.createElement(
@@ -26478,7 +26478,7 @@ var About = _react2.default.createClass({
                 _react2.default.createElement(
                   'p',
                   { className: 'parAbout' },
-                  'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio.'
+                  'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
                 )
               )
             )
@@ -26813,12 +26813,17 @@ var Demo = _react2.default.createClass({
               _react2.default.createElement(
                 'div',
                 { className: 'container-fluid picture' },
-                _react2.default.createElement('img', { className: 'img-responsive', src: "images/video_screenshot.jpg" })
+                _react2.default.createElement(
+                  'video',
+                  { width: '720', autoPlay: true, controls: true },
+                  _react2.default.createElement('source', { src: 'videos/test.mp4', type: 'video/mp4' }),
+                  'Your browser does not support the video tag.'
+                )
               ),
               _react2.default.createElement(
                 'h3',
                 null,
-                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna'
+                'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna'
               )
             )
           )
@@ -27244,7 +27249,7 @@ var Order = _react2.default.createClass({
               _react2.default.createElement(
                 'div',
                 null,
-                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh '
+                'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh '
               ),
               _react2.default.createElement(
                 'h3',
@@ -27396,7 +27401,7 @@ var Product = _react2.default.createClass({
               _react2.default.createElement(
                 'p',
                 { className: 'parAbout' },
-                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio.'
+                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
               )
             ),
             _react2.default.createElement(
@@ -27410,7 +27415,7 @@ var Product = _react2.default.createClass({
               _react2.default.createElement(
                 'p',
                 { className: 'parAbout' },
-                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio.'
+                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
               )
             ),
             _react2.default.createElement(
@@ -27424,7 +27429,7 @@ var Product = _react2.default.createClass({
               _react2.default.createElement(
                 'p',
                 { className: 'parAbout' },
-                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio.'
+                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
               )
             )
           ),
