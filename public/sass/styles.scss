@@ -58,6 +58,11 @@ body {
     margin-top: 50px;
 }
 
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 .order {
    background-color: #FFFFFF;
    font-weight: 800;   
@@ -65,7 +70,7 @@ body {
    margin-bottom: 70px;
    margin-top: 70px;
    margin-right: 25px;
-   margin-left: 55px;
+   margin-left: 25px;
    padding-left: 50px;
    padding-right: 50px;
    padding-bottom: 50px;
@@ -135,6 +140,10 @@ body {
    
     margin-top:80px;
     text-align: center;
+
+    @include breakpoint(mobileonly) {
+       margin-top:40px;
+    }   
 }
 
 .about {
@@ -164,12 +173,12 @@ body {
 
     @include breakpoint(mobileonly) {
         font-size: 20px;
-        width: 200px;
+        width: 146px;
         height: 54px;
      }
     @include breakpoint(phablet) {
         font-size: 20px;
-        width: 180px;
+        width: 146px;
         height: 54px;
      }
      @include breakpoint(tablet) {

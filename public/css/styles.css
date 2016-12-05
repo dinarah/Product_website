@@ -53,6 +53,10 @@ body {
   margin-right: 10px;
   margin-top: 50px; }
 
+video {
+  max-width: 100%;
+  height: auto; }
+
 .order {
   background-color: #FFFFFF;
   font-weight: 800;
@@ -60,7 +64,7 @@ body {
   margin-bottom: 70px;
   margin-top: 70px;
   margin-right: 25px;
-  margin-left: 55px;
+  margin-left: 25px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
@@ -119,6 +123,9 @@ body {
 .picture {
   margin-top: 80px;
   text-align: center; }
+  @media (max-width: 37.5em) {
+    .picture {
+      margin-top: 40px; } }
 
 .about {
   background-color: #e7ff6e;
@@ -145,12 +152,12 @@ body {
   @media (max-width: 37.5em) {
     .btn {
       font-size: 20px;
-      width: 200px;
+      width: 146px;
       height: 54px; } }
   @media (min-width: 37.5em) {
     .btn {
       font-size: 20px;
-      width: 180px;
+      width: 146px;
       height: 54px; } }
   @media (min-width: 50em) {
     .btn {
