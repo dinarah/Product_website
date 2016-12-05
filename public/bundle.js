@@ -26459,7 +26459,7 @@ var About = _react2.default.createClass({
                 _react2.default.createElement(
                   'p',
                   { className: 'parAbout' },
-                  'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
+                  'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
                 )
               ),
               _react2.default.createElement(
@@ -27401,7 +27401,7 @@ var Product = _react2.default.createClass({
               _react2.default.createElement(
                 'p',
                 { className: 'parAbout' },
-                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
+                'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
               )
             ),
             _react2.default.createElement(
@@ -27415,7 +27415,7 @@ var Product = _react2.default.createClass({
               _react2.default.createElement(
                 'p',
                 { className: 'parAbout' },
-                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
+                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
               )
             ),
             _react2.default.createElement(
@@ -27429,7 +27429,7 @@ var Product = _react2.default.createClass({
               _react2.default.createElement(
                 'p',
                 { className: 'parAbout' },
-                'Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
+                'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio.'
               )
             )
           ),

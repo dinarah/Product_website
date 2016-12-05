@@ -13,7 +13,7 @@ var Home = React.createClass({
     return (
       <div>
         <div>
-          <div className = "container" id = "big">
+          <div className = "container"  id = "big">
             <span> EMPOWERING GROWTH WITH REAL DATA</span>
           </div>
         </div>

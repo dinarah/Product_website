@@ -25,7 +25,7 @@ var Product = React.createClass({
             <div className="row">
               <div className="col-md-4">
                 <h3>FAST</h3>
-                <p className="parAbout">Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo,
+                <p className="parAbout">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
                   tortor mauris condimentum nibh,
                   ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
                   mollis euismod. Donec sed odio.</p>
@@ -34,12 +34,12 @@ var Product = React.createClass({
                 <h3>SECURE</h3>
                 <p className="parAbout">Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo,
                   tortor mauris condimentum nibh,
-                  ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna
+                  ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
                   mollis euismod. Donec sed odio.</p>
               </div>
               <div className="col-md-4">
                 <h3>EASY</h3>
-                <p className="parAbout">Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo,
+                <p className="parAbout">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
                   tortor mauris condimentum nibh,
                   ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
                   mollis euismod. Donec sed odio.</p>
